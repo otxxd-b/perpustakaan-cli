@@ -1,0 +1,6 @@
+[
+  {"id_pinjam": "P101", "id_anggota": "A001", "nama_anggota": "Andi Saputra", "kode_buku": "B001", "judul_buku": "Dasar Pemrograman Python", "kategori": "Teknologi", "tanggal_pinjam": "2026-11-18", "tanggal_kembali": null},
+  {"id_pinjam": "P102", "id_anggota": "A002", "nama_anggota": "Siti Rahma", "kode_buku": "B005", "judul_buku": "Bumi Manusia", "kategori": "Fiksi", "tanggal_pinjam": "2026-11-09", "tanggal_kembali": "2026-11-19"},
+  {"id_pinjam": "P103", "id_anggota": "A003", "nama_anggota": "Budi Santoso", "kode_buku": "B004", "judul_buku": "Sejarah Nusantara", "kategori": "Sejarah", "tanggal_pinjam": "2026-11-23", "tanggal_kembali": ""},
+  {"id_pinjam": "P104", "id_anggota": 4, "nama_anggota": "Dewi Lestari", "kode_buku": "B002", "judul_buku": "Laskar Pelangi", "kategori": "Fiksi", "tanggal_pinjam": "2026-11-21", "tanggal_kembali": null}
+]

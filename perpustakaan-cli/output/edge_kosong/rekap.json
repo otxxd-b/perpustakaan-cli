@@ -1,0 +1,17 @@
+{
+  "tanggal_acuan": "2026-11-26",
+  "ringkasan": {
+    "total_baris_input": 0,
+    "data_valid": 0,
+    "data_duplikat": 0,
+    "data_tidak_valid": 0,
+    "anggota_unik": 0,
+    "buku_unik": 0,
+    "peminjaman_terlambat": 0,
+    "total_denda": 0
+  },
+  "per_status": {},
+  "per_kategori": {},
+  "per_anggota": {},
+  "buku_terpopuler": []
+}

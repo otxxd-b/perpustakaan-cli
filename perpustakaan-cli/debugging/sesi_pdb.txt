@@ -1,0 +1,36 @@
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/pdb.py", line 2524, in main
+    pdb._run(target)
+    ~~~~~~~~^^^^^^^^
+  File "/usr/local/lib/python3.13/pdb.py", line 2264, in _run
+    self.run(target.code)
+    ~~~~~~~~^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/bdb.py", line 680, in run
+    exec(cmd, globals, locals)
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "<string>", line 1, in <module>
+  File "/home/claude/perpustakaan-cli/debugging/bug_baris_pendek.py", line 16, in <module>
+    bersihkan(baris)
+    ~~~~~~~~~^^^^^^^
+  File "/home/claude/perpustakaan-cli/debugging/bug_baris_pendek.py", line 11, in bersihkan
+    return {kolom: nilai.strip() for kolom, nilai in baris.items()}
+                   ^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'strip'
+Uncaught exception. Entering post mortem debugging
+Running 'cont' or 'step' will restart the program
+> /home/claude/perpustakaan-cli/debugging/bug_baris_pendek.py(11)bersihkan()
+-> return {kolom: nilai.strip() for kolom, nilai in baris.items()}
+(Pdb)   /usr/local/lib/python3.13/pdb.py(2524)main()
+-> pdb._run(target)
+  /usr/local/lib/python3.13/pdb.py(2264)_run()
+-> self.run(target.code)
+  /usr/local/lib/python3.13/bdb.py(680)run()
+-> exec(cmd, globals, locals)
+  <string>(1)<module>()
+  /home/claude/perpustakaan-cli/debugging/bug_baris_pendek.py(16)<module>()
+-> bersihkan(baris)
+> /home/claude/perpustakaan-cli/debugging/bug_baris_pendek.py(11)bersihkan()
+-> return {kolom: nilai.strip() for kolom, nilai in baris.items()}
+(Pdb) 'P016'
+(Pdb) ['judul_buku', 'kategori', 'tanggal_pinjam', 'tanggal_kembali']
+(Pdb) 

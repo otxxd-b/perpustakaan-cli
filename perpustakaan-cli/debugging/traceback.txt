@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/home/claude/perpustakaan-cli/debugging/bug_baris_pendek.py", line 16, in <module>
+    bersihkan(baris)
+    ~~~~~~~~~^^^^^^^
+  File "/home/claude/perpustakaan-cli/debugging/bug_baris_pendek.py", line 11, in bersihkan
+    return {kolom: nilai.strip() for kolom, nilai in baris.items()}
+                   ^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'strip'

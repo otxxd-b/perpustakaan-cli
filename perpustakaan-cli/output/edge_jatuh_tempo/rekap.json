@@ -1,0 +1,79 @@
+{
+  "tanggal_acuan": "2026-11-26",
+  "ringkasan": {
+    "total_baris_input": 4,
+    "data_valid": 4,
+    "data_duplikat": 0,
+    "data_tidak_valid": 0,
+    "anggota_unik": 4,
+    "buku_unik": 4,
+    "peminjaman_terlambat": 2,
+    "total_denda": 2000
+  },
+  "per_status": {
+    "dipinjam": 1,
+    "kembali_tepat": 1,
+    "kembali_terlambat": 1,
+    "terlambat": 1
+  },
+  "per_kategori": {
+    "Fiksi": {
+      "jumlah": 1,
+      "terlambat": 1,
+      "denda": 1000
+    },
+    "Sejarah": {
+      "jumlah": 1,
+      "terlambat": 1,
+      "denda": 1000
+    },
+    "Teknologi": {
+      "jumlah": 2,
+      "terlambat": 0,
+      "denda": 0
+    }
+  },
+  "per_anggota": {
+    "A001": {
+      "nama": "Andi Saputra",
+      "jumlah": 1,
+      "terlambat": 0,
+      "denda": 0
+    },
+    "A002": {
+      "nama": "Siti Rahma",
+      "jumlah": 1,
+      "terlambat": 1,
+      "denda": 1000
+    },
+    "A003": {
+      "nama": "Budi Santoso",
+      "jumlah": 1,
+      "terlambat": 0,
+      "denda": 0
+    },
+    "A004": {
+      "nama": "Dewi Lestari",
+      "jumlah": 1,
+      "terlambat": 1,
+      "denda": 1000
+    }
+  },
+  "buku_terpopuler": [
+    {
+      "kode_buku": "B001",
+      "judul": "Dasar Pemrograman Python",
+      "dipinjam": 1
+    },
+    {
+      "kode_buku": "B002",
+      "judul": "Laskar Pelangi",
+      "dipinjam": 1
+    },
+    {
+      "kode_buku": "B003",
+      "judul": "Basis Data Lanjut",
+      "dipinjam": 1
+    }
+  ]
+}

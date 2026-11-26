@@ -1,0 +1,37 @@
+test_dibatalkan (tests.test_aplikasi.TestCLI.test_dibatalkan) ... ok
+test_exit_code_error (tests.test_aplikasi.TestCLI.test_exit_code_error) ... ok
+test_folder_output_tidak_sah (tests.test_aplikasi.TestCLI.test_folder_output_tidak_sah) ... ok
+test_hard_link_input_tidak_tertimpa (tests.test_aplikasi.TestCLI.test_hard_link_input_tidak_tertimpa) ... ok
+test_input_tidak_boleh_tertimpa (tests.test_aplikasi.TestCLI.test_input_tidak_boleh_tertimpa) ... ok
+test_karakter_di_luar_encoding_terminal (tests.test_aplikasi.TestCLI.test_karakter_di_luar_encoding_terminal) ... ok
+test_menu_semua_fitur (tests.test_aplikasi.TestCLI.test_menu_semua_fitur) ... ok
+test_menu_tahan_input_salah (tests.test_aplikasi.TestCLI.test_menu_tahan_input_salah) ... ok
+test_proses_menulis_tiga_file (tests.test_aplikasi.TestCLI.test_proses_menulis_tiga_file) ... ok
+test_cari_kosong (tests.test_aplikasi.TestCariFilter.test_cari_kosong) ... ok
+test_cari_tidak_peka_huruf (tests.test_aplikasi.TestCariFilter.test_cari_tidak_peka_huruf) ... ok
+test_saring (tests.test_aplikasi.TestCariFilter.test_saring) ... ok
+test_saring_tidak_dikenal (tests.test_aplikasi.TestCariFilter.test_saring_tidak_dikenal) ... ok
+test_denda_dihitung_manual (tests.test_aplikasi.TestDataNormal.test_denda_dihitung_manual) ... ok
+test_duplikat_id_pertama_yang_valid_dipakai (tests.test_aplikasi.TestDataNormal.test_duplikat_id_pertama_yang_valid_dipakai) ... ok
+test_json (tests.test_aplikasi.TestDataNormal.test_json) ... ok
+test_jumlah_baris (tests.test_aplikasi.TestDataNormal.test_jumlah_baris) ... ok
+test_normalisasi (tests.test_aplikasi.TestDataNormal.test_normalisasi) ... ok
+test_rekap_konsisten (tests.test_aplikasi.TestDataNormal.test_rekap_konsisten) ... ok
+test_batas_jatuh_tempo (tests.test_aplikasi.TestEdgeCase.test_batas_jatuh_tempo) ... ok
+test_file_hanya_header (tests.test_aplikasi.TestEdgeCase.test_file_hanya_header) ... ok
+test_rupiah (tests.test_aplikasi.TestEdgeCase.test_rupiah) ... ok
+test_tanggal (tests.test_aplikasi.TestEdgeCase.test_tanggal) ... ok
+test_baris_bermasalah_tidak_menghentikan_program (tests.test_aplikasi.TestError.test_baris_bermasalah_tidak_menghentikan_program) ... ok
+test_baris_tidak_valid_tidak_memblokir_id (tests.test_aplikasi.TestError.test_baris_tidak_valid_tidak_memblokir_id) ... ok
+test_csv_dengan_bom_excel (tests.test_aplikasi.TestError.test_csv_dengan_bom_excel) ... ok
+test_file_tidak_ada (tests.test_aplikasi.TestError.test_file_tidak_ada) ... ok
+test_format_salah (tests.test_aplikasi.TestError.test_format_salah) ... ok
+test_json_elemen_aneh (tests.test_aplikasi.TestError.test_json_elemen_aneh) ... ok
+test_kolom_hilang_tidak_dianggap_belum_kembali (tests.test_aplikasi.TestError.test_kolom_hilang_tidak_dianggap_belum_kembali) ... ok
+test_path_folder (tests.test_aplikasi.TestError.test_path_folder) ... ok
+test_tulis_gagal (tests.test_aplikasi.TestError.test_tulis_gagal) ... ok
+
+----------------------------------------------------------------------
+Ran 32 tests in 0.080s
+
+OK

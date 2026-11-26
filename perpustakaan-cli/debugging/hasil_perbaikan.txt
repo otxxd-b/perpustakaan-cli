@@ -1,0 +1,2 @@
+Program selesai tanpa crash: 10 valid, 8 ditolak
+Baris 19: kolom hilang: judul_buku, kategori, tanggal_pinjam, tanggal_kembali

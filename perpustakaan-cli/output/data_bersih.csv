@@ -1,0 +1,11 @@
+id_pinjam,id_anggota,nama_anggota,kode_buku,judul_buku,kategori,tanggal_pinjam,tanggal_kembali,jatuh_tempo,status,hari_terlambat,denda
+P001,A001,Andi Saputra,B001,Dasar Pemrograman Python,Teknologi,2026-11-01,2026-11-08,2026-11-08,kembali_tepat,0,0
+P002,A002,Siti Rahma,B002,Laskar Pelangi,Fiksi,2026-11-02,2026-11-12,2026-11-09,kembali_terlambat,3,3000
+P003,A003,Budi Santoso,B003,Basis Data Lanjut,Teknologi,2026-11-03,,2026-11-10,terlambat,16,16000
+P004,A001,Andi Saputra,B002,Laskar Pelangi,Fiksi,2026-11-20,,2026-11-27,dipinjam,0,0
+P005,A004,Dewi Lestari,B004,Sejarah Nusantara,Sejarah,2026-11-05,2026-11-10,2026-11-12,kembali_tepat,0,0
+P006,A002,Siti Rahma,B001,Dasar Pemrograman Python,Teknologi,2026-11-10,2026-11-18,2026-11-17,kembali_terlambat,1,1000
+P007,A005,Rizky Pratama,B005,Bumi Manusia,Fiksi,2026-11-19,,2026-11-26,dipinjam,0,0
+P008,A003,Budi Santoso,B001,Dasar Pemrograman Python,Teknologi,2026-11-15,2026-11-21,2026-11-22,kembali_tepat,0,0
+P013,A009,Nina Karlina,B006,Jaringan Komputer,Teknologi,2026-11-16,2026-11-20,2026-11-23,kembali_tepat,0,0
+P015,A005,Rizky Pratama,B003,Basis Data Lanjut,Teknologi,2026-11-22,,2026-11-29,dipinjam,0,0

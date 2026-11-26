@@ -1,0 +1,91 @@
+{
+  "tanggal_acuan": "2026-11-26",
+  "ringkasan": {
+    "total_baris_input": 18,
+    "data_valid": 10,
+    "data_duplikat": 2,
+    "data_tidak_valid": 6,
+    "anggota_unik": 6,
+    "buku_unik": 6,
+    "peminjaman_terlambat": 3,
+    "total_denda": 20000
+  },
+  "per_status": {
+    "dipinjam": 3,
+    "kembali_tepat": 4,
+    "kembali_terlambat": 2,
+    "terlambat": 1
+  },
+  "per_kategori": {
+    "Fiksi": {
+      "jumlah": 3,
+      "terlambat": 1,
+      "denda": 3000
+    },
+    "Sejarah": {
+      "jumlah": 1,
+      "terlambat": 0,
+      "denda": 0
+    },
+    "Teknologi": {
+      "jumlah": 6,
+      "terlambat": 2,
+      "denda": 17000
+    }
+  },
+  "per_anggota": {
+    "A001": {
+      "nama": "Andi Saputra",
+      "jumlah": 2,
+      "terlambat": 0,
+      "denda": 0
+    },
+    "A002": {
+      "nama": "Siti Rahma",
+      "jumlah": 2,
+      "terlambat": 2,
+      "denda": 4000
+    },
+    "A003": {
+      "nama": "Budi Santoso",
+      "jumlah": 2,
+      "terlambat": 1,
+      "denda": 16000
+    },
+    "A004": {
+      "nama": "Dewi Lestari",
+      "jumlah": 1,
+      "terlambat": 0,
+      "denda": 0
+    },
+    "A005": {
+      "nama": "Rizky Pratama",
+      "jumlah": 2,
+      "terlambat": 0,
+      "denda": 0
+    },
+    "A009": {
+      "nama": "Nina Karlina",
+      "jumlah": 1,
+      "terlambat": 0,
+      "denda": 0
+    }
+  },
+  "buku_terpopuler": [
+    {
+      "kode_buku": "B001",
+      "judul": "Dasar Pemrograman Python",
+      "dipinjam": 3
+    },
+    {
+      "kode_buku": "B002",
+      "judul": "Laskar Pelangi",
+      "dipinjam": 2
+    },
+    {
+      "kode_buku": "B003",
+      "judul": "Basis Data Lanjut",
+      "dipinjam": 2
+    }
+  ]
+}

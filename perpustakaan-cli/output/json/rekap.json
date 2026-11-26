@@ -1,0 +1,72 @@
+{
+  "tanggal_acuan": "2026-11-26",
+  "ringkasan": {
+    "total_baris_input": 4,
+    "data_valid": 3,
+    "data_duplikat": 0,
+    "data_tidak_valid": 1,
+    "anggota_unik": 3,
+    "buku_unik": 3,
+    "peminjaman_terlambat": 2,
+    "total_denda": 4000
+  },
+  "per_status": {
+    "dipinjam": 1,
+    "kembali_terlambat": 1,
+    "terlambat": 1
+  },
+  "per_kategori": {
+    "Fiksi": {
+      "jumlah": 1,
+      "terlambat": 1,
+      "denda": 3000
+    },
+    "Sejarah": {
+      "jumlah": 1,
+      "terlambat": 0,
+      "denda": 0
+    },
+    "Teknologi": {
+      "jumlah": 1,
+      "terlambat": 1,
+      "denda": 1000
+    }
+  },
+  "per_anggota": {
+    "A001": {
+      "nama": "Andi Saputra",
+      "jumlah": 1,
+      "terlambat": 1,
+      "denda": 1000
+    },
+    "A002": {
+      "nama": "Siti Rahma",
+      "jumlah": 1,
+      "terlambat": 1,
+      "denda": 3000
+    },
+    "A003": {
+      "nama": "Budi Santoso",
+      "jumlah": 1,
+      "terlambat": 0,
+      "denda": 0
+    }
+  },
+  "buku_terpopuler": [
+    {
+      "kode_buku": "B001",
+      "judul": "Dasar Pemrograman Python",
+      "dipinjam": 1
+    },
+    {
+      "kode_buku": "B004",
+      "judul": "Sejarah Nusantara",
+      "dipinjam": 1
+    },
+    {
+      "kode_buku": "B005",
+      "judul": "Bumi Manusia",
+      "dipinjam": 1
+    }
+  ]
+}

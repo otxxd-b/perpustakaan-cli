@@ -1,0 +1,72 @@
+$ python main.py rekap -t 2026-11-26
+Catatan: 8 baris ditolak (jalankan 'proses' untuk melihat alasannya).
+=== REKAP PEMINJAMAN (per 2026-11-26) ===
+Baris input        : 18
+Data valid         : 10
+Data duplikat      : 2
+Data tidak valid   : 6
+Anggota unik       : 6
+Judul buku unik    : 6
+Pinjaman terlambat : 3
+Total denda        : Rp20.000
+
+Per kategori:
+  - Fiksi: 3 pinjam, 1 terlambat, denda Rp3.000
+  - Sejarah: 1 pinjam, 0 terlambat, denda Rp0
+  - Teknologi: 6 pinjam, 2 terlambat, denda Rp17.000
+
+Anggota yang memiliki denda:
+  - A002 Siti Rahma: Rp4.000
+  - A003 Budi Santoso: Rp16.000
+
+Buku terpopuler:
+  1. Dasar Pemrograman Python (3x)
+  2. Laskar Pelangi (2x)
+  3. Basis Data Lanjut (2x)
+
+$ python main.py cari python -t 2026-11-26
+Catatan: 8 baris ditolak (jalankan 'proses' untuk melihat alasannya).
+ID   | Anggota      | Judul                    | Jatuh Tempo | Status            | Denda  
+-----+--------------+--------------------------+-------------+-------------------+--------
+P001 | Andi Saputra | Dasar Pemrograman Python | 2026-11-08  | kembali_tepat     | Rp0    
+P006 | Siti Rahma   | Dasar Pemrograman Python | 2026-11-17  | kembali_terlambat | Rp1.000
+P008 | Budi Santoso | Dasar Pemrograman Python | 2026-11-22  | kembali_tepat     | Rp0    
+Total: 3 data
+
+$ python main.py filter --status terlambat -t 2026-11-26
+Catatan: 8 baris ditolak (jalankan 'proses' untuk melihat alasannya).
+ID   | Anggota      | Judul             | Jatuh Tempo | Status    | Denda   
+-----+--------------+-------------------+-------------+-----------+---------
+P003 | Budi Santoso | Basis Data Lanjut | 2026-11-10  | terlambat | Rp16.000
+Total: 1 data
+
+$ python main.py rekap -i data/edge_kosong.csv -t 2026-11-26
+=== REKAP PEMINJAMAN (per 2026-11-26) ===
+Baris input        : 0
+Data valid         : 0
+Data duplikat      : 0
+Data tidak valid   : 0
+Anggota unik       : 0
+Judul buku unik    : 0
+Pinjaman terlambat : 0
+Total denda        : Rp0
+Belum ada data valid untuk direkap.
+
+$ python main.py filter -i data/edge_jatuh_tempo.csv -t 2026-11-26
+ID   | Anggota      | Judul                    | Jatuh Tempo | Status            | Denda  
+-----+--------------+--------------------------+-------------+-------------------+--------
+P201 | Andi Saputra | Dasar Pemrograman Python | 2026-11-17  | kembali_tepat     | Rp0    
+P202 | Siti Rahma   | Laskar Pelangi           | 2026-11-17  | kembali_terlambat | Rp1.000
+P203 | Budi Santoso | Basis Data Lanjut        | 2026-11-26  | dipinjam          | Rp0    
+P204 | Dewi Lestari | Sejarah Nusantara        | 2026-11-25  | terlambat         | Rp1.000
+Total: 4 data
+
+$ python main.py rekap -i data/tidak_ada.csv -t 2026-11-26
+Error: File tidak ditemukan: data/tidak_ada.csv
+
+$ python main.py rekap -i data/error_kolom_kurang.csv -t 2026-11-26
+Error: Kolom wajib tidak ada: id_anggota, kode_buku, kategori, tanggal_pinjam, tanggal_kembali
+
+$ python main.py rekap -i data/error_format.json -t 2026-11-26
+Error: JSON tidak valid pada baris 2 kolom 23: Illegal trailing comma before end of object
+
